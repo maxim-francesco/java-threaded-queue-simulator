@@ -1,0 +1,58 @@
+Simulation Parameters:
+Time Limit: 10
+Max Processing Time: 5
+Min Processing Time: 2
+Number of Servers: 3
+Number of Clients: 10
+Strategy: SHORTEST QUEUE
+
+Time:0
+Clients:[Task{id=0, arrivalTime=1, serviceTime=5}, Task{id=1, arrivalTime=3, serviceTime=4}, Task{id=2, arrivalTime=2, serviceTime=3}, Task{id=3, arrivalTime=5, serviceTime=2}, Task{id=4, arrivalTime=5, serviceTime=2}, Task{id=5, arrivalTime=3, serviceTime=4}, Task{id=6, arrivalTime=4, serviceTime=3}, Task{id=7, arrivalTime=1, serviceTime=3}, Task{id=8, arrivalTime=3, serviceTime=4}, Task{id=9, arrivalTime=4, serviceTime=3}]
+Server:Server{tasks=[], waitingPeriod=0, index=0}
+Server:Server{tasks=[], waitingPeriod=0, index=1}
+Server:Server{tasks=[], waitingPeriod=0, index=2}
+Time:1
+Clients:[Task{id=1, arrivalTime=3, serviceTime=4}, Task{id=2, arrivalTime=2, serviceTime=3}, Task{id=3, arrivalTime=5, serviceTime=2}, Task{id=4, arrivalTime=5, serviceTime=2}, Task{id=5, arrivalTime=3, serviceTime=4}, Task{id=6, arrivalTime=4, serviceTime=3}, Task{id=8, arrivalTime=3, serviceTime=4}, Task{id=9, arrivalTime=4, serviceTime=3}]
+Server:Server{tasks=[Task{id=0, arrivalTime=1, serviceTime=5}], waitingPeriod=5, index=0}
+Server:Server{tasks=[Task{id=7, arrivalTime=1, serviceTime=3}], waitingPeriod=3, index=1}
+Server:Server{tasks=[], waitingPeriod=0, index=2}
+Time:2
+Clients:[Task{id=1, arrivalTime=3, serviceTime=4}, Task{id=3, arrivalTime=5, serviceTime=2}, Task{id=4, arrivalTime=5, serviceTime=2}, Task{id=5, arrivalTime=3, serviceTime=4}, Task{id=6, arrivalTime=4, serviceTime=3}, Task{id=8, arrivalTime=3, serviceTime=4}, Task{id=9, arrivalTime=4, serviceTime=3}]
+Server:Server{tasks=[Task{id=0, arrivalTime=1, serviceTime=4}], waitingPeriod=4, index=0}
+Server:Server{tasks=[Task{id=7, arrivalTime=1, serviceTime=2}], waitingPeriod=2, index=1}
+Server:Server{tasks=[Task{id=2, arrivalTime=2, serviceTime=3}], waitingPeriod=3, index=2}
+Time:3
+Clients:[Task{id=3, arrivalTime=5, serviceTime=2}, Task{id=4, arrivalTime=5, serviceTime=2}, Task{id=6, arrivalTime=4, serviceTime=3}, Task{id=9, arrivalTime=4, serviceTime=3}]
+Server:Server{tasks=[Task{id=0, arrivalTime=1, serviceTime=3}, Task{id=1, arrivalTime=3, serviceTime=4}], waitingPeriod=7, index=0}
+Server:Server{tasks=[Task{id=7, arrivalTime=1, serviceTime=1}, Task{id=5, arrivalTime=3, serviceTime=4}], waitingPeriod=5, index=1}
+Server:Server{tasks=[Task{id=2, arrivalTime=2, serviceTime=2}, Task{id=8, arrivalTime=3, serviceTime=4}], waitingPeriod=6, index=2}
+Time:4
+Clients:[Task{id=3, arrivalTime=5, serviceTime=2}, Task{id=4, arrivalTime=5, serviceTime=2}]
+Server:Server{tasks=[Task{id=0, arrivalTime=1, serviceTime=2}, Task{id=1, arrivalTime=3, serviceTime=4}, Task{id=9, arrivalTime=4, serviceTime=3}], waitingPeriod=9, index=0}
+Server:Server{tasks=[Task{id=5, arrivalTime=3, serviceTime=4}, Task{id=6, arrivalTime=4, serviceTime=3}], waitingPeriod=7, index=1}
+Server:Server{tasks=[Task{id=2, arrivalTime=2, serviceTime=1}, Task{id=8, arrivalTime=3, serviceTime=4}], waitingPeriod=5, index=2}
+Time:5
+Clients:[]
+Server:Server{tasks=[Task{id=0, arrivalTime=1, serviceTime=1}, Task{id=1, arrivalTime=3, serviceTime=4}, Task{id=9, arrivalTime=4, serviceTime=3}], waitingPeriod=8, index=0}
+Server:Server{tasks=[Task{id=5, arrivalTime=3, serviceTime=3}, Task{id=6, arrivalTime=4, serviceTime=3}, Task{id=4, arrivalTime=5, serviceTime=2}], waitingPeriod=8, index=1}
+Server:Server{tasks=[Task{id=8, arrivalTime=3, serviceTime=4}, Task{id=3, arrivalTime=5, serviceTime=2}], waitingPeriod=6, index=2}
+Time:6
+Clients:[]
+Server:Server{tasks=[Task{id=1, arrivalTime=3, serviceTime=4}, Task{id=9, arrivalTime=4, serviceTime=3}], waitingPeriod=7, index=0}
+Server:Server{tasks=[Task{id=5, arrivalTime=3, serviceTime=2}, Task{id=6, arrivalTime=4, serviceTime=3}, Task{id=4, arrivalTime=5, serviceTime=2}], waitingPeriod=7, index=1}
+Server:Server{tasks=[Task{id=8, arrivalTime=3, serviceTime=3}, Task{id=3, arrivalTime=5, serviceTime=2}], waitingPeriod=5, index=2}
+Time:7
+Clients:[]
+Server:Server{tasks=[Task{id=1, arrivalTime=3, serviceTime=3}, Task{id=9, arrivalTime=4, serviceTime=3}], waitingPeriod=6, index=0}
+Server:Server{tasks=[Task{id=5, arrivalTime=3, serviceTime=1}, Task{id=6, arrivalTime=4, serviceTime=3}, Task{id=4, arrivalTime=5, serviceTime=2}], waitingPeriod=6, index=1}
+Server:Server{tasks=[Task{id=8, arrivalTime=3, serviceTime=2}, Task{id=3, arrivalTime=5, serviceTime=2}], waitingPeriod=4, index=2}
+Time:8
+Clients:[]
+Server:Server{tasks=[Task{id=1, arrivalTime=3, serviceTime=2}, Task{id=9, arrivalTime=4, serviceTime=3}], waitingPeriod=5, index=0}
+Server:Server{tasks=[Task{id=6, arrivalTime=4, serviceTime=3}, Task{id=4, arrivalTime=5, serviceTime=2}], waitingPeriod=5, index=1}
+Server:Server{tasks=[Task{id=8, arrivalTime=3, serviceTime=1}, Task{id=3, arrivalTime=5, serviceTime=2}], waitingPeriod=3, index=2}
+Time:9
+Clients:[]
+Server:Server{tasks=[Task{id=1, arrivalTime=3, serviceTime=1}, Task{id=9, arrivalTime=4, serviceTime=3}], waitingPeriod=4, index=0}
+Server:Server{tasks=[Task{id=6, arrivalTime=4, serviceTime=2}, Task{id=4, arrivalTime=5, serviceTime=2}], waitingPeriod=4, index=1}
+Server:Server{tasks=[Task{id=3, arrivalTime=5, serviceTime=2}], waitingPeriod=2, index=2}
